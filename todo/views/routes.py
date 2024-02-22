@@ -15,7 +15,7 @@ def get_todos():
         "completed": True,
         "deadline_at": "2023-02-27T00:00:00",
         "created_at": "2023-02-20T00:00:00",
-        "updated_at": "2023-02-20T00:00:00",
+        "updated_at": "2023-02-20T00:00:00"
     })
 
 @api.route('/todos/<int:id>', methods=['GET'])
